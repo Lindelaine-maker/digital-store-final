@@ -2,31 +2,27 @@
 
 Loja virtual moderna e responsiva inspirada no visual do Digital Store, desenvolvida com React, TypeScript e Tailwind CSS.
 
-A aplicação inclui catálogo de produtos, filtros, busca, banner slider, carrinho persistido em localStorage, autenticação simulada, checkout e layout otimizado para desktop e mobile.
+Este projeto simula uma experiência completa de e-commerce com catálogo de produtos, filtros, busca, carrinho, autenticação e checkout, trazendo uma interface moderna e funcional para apresentação em portfólio, curso, entrega acadêmica ou deploy em produção.
 
-## Demonstração
+## 🔗 Repositório
 
-Acesse a aplicação localmente em:
+https://github.com/Lindelaine-maker/digital-store-final
 
-```bash
-http://localhost:5173
-```
+## 🧩 Funcionalidades
 
-## Funcionalidades
-
-- Home com banner slider automático
+- Home com slider de banners
 - Catálogo de produtos com busca e filtros por categoria
 - Ordenação por relevância, menor preço, maior preço e melhor avaliação
 - Página de detalhes do produto
 - Seleção de cor, tamanho e quantidade
 - Carrinho de compras com persistência em localStorage
-- Autenticação simulada com login e logout
+- Autenticação simulada com login/logout
 - Checkout com resumo do pedido
-- Design responsivo e visual premium
-- Rotas para páginas internas com React Router
+- Design responsivo para desktop e mobile
+- Rotas internas com React Router
 - Configuração pronta para deploy no Vercel
 
-## Stack Tecnológica
+## 🛠️ Stack Tecnológica
 
 - React
 - TypeScript
@@ -35,7 +31,7 @@ http://localhost:5173
 - React Router DOM
 - Lucide React
 
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 ```bash
 digital-store-final/
@@ -76,16 +72,14 @@ digital-store-final/
 └── public/
 ```
 
-## Requisitos
-
-Antes de iniciar, certifique-se de ter instalado:
+## ✅ Requisitos
 
 - Node.js 18+
 - npm ou yarn
 
-## Instalação
+## ▶️ Como rodar localmente
 
-Clone o repositório:
+Clone o projeto:
 
 ```bash
 git clone https://github.com/Lindelaine-maker/digital-store-final.git
@@ -98,9 +92,7 @@ Instale as dependências:
 npm install
 ```
 
-## Executando o projeto localmente
-
-Inicie o servidor de desenvolvimento:
+Inicie o servidor:
 
 ```bash
 npm run dev
@@ -112,61 +104,59 @@ Acesse no navegador:
 http://localhost:5173
 ```
 
-## Scripts disponíveis
+## 📦 Scripts
 
 ```bash
 npm run dev
 ```
-Inicia o ambiente de desenvolvimento.
+Executa a aplicação em modo de desenvolvimento.
 
 ```bash
 npm run build
 ```
-Gera a build de produção.
+Cria a build de produção.
 
 ```bash
 npm run preview
 ```
-Previsualiza a build gerada localmente.
+Pré-visualiza a build localmente.
 
-## Deploy no Vercel
+## 🚀 Deploy no Vercel
 
-1. Faça o push do projeto para o GitHub.
-2. Acesse o Vercel.
-3. Clique em "Add New Project".
-4. Import o repositório `digital-store-final`.
-5. Configure:
-   - Framework: Vite
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-6. Clique em "Deploy".
+1. Conecte o repositório ao Vercel.
+2. Escolha o framework: `Vite`.
+3. Configure o comando de build:
+   ```bash
+   npm run build
+   ```
+4. Configure a pasta de saída:
+   ```bash
+   dist
+   ```
+5. Clique em "Deploy".
 
-O arquivo `vercel.json` foi incluído para garantir que as rotas do React Router funcionem corretamente em produção.
+O arquivo `vercel.json` foi adicionado para garantir que as rotas do React Router funcionem corretamente em produção.
 
-## Observações de Arquitetura
+## 🧠 Observações Técnicas
 
-- O estado global do carrinho e do usuário é gerenciado via `React Context`.
-- O carrinho é salvo em `localStorage`, o que mantém os itens mesmo após atualizar a página.
-- A autenticação é simulada apenas no front-end, sem backend ou banco de dados.
-- Os dados dos produtos encontram-se em `src/data/products.ts`.
+- O carrinho e o usuário são gerenciados com `React Context`.
+- O carrinho é salvo em `localStorage`, preservando os itens ao recarregar a página.
+- A autenticação é simulada no front-end, sem backend real.
+- Os produtos estão centralizados em `src/data/products.ts`.
 
-## Melhorias futuras
+## 📈 Melhorias Futuras
 
 - Integração com API real de produtos
-- Backend para autenticação e pedidos
-- Pagamento real com Stripe ou Mercado Pago
-- Dashboard administrativo
+- Autenticação com backend
+- Sistema de pagamento real
+- Área administrativa para produtos
 - Melhorias de acessibilidade e SEO
-- Internacionalização (i18n)
+- Internacionalização
 
-## Status do Projeto
+## 🏁 Status do Projeto
 
-Projeto pronto para apresentação, entrega acadêmica ou deploy inicial em produção.
+Projeto finalizado e pronto para apresentação, portfólio, estudo e deploy inicial.
 
-## Autor
+## 👤 Autor
 
 Lindelaine-maker
-
-## Repositório
-
-https://github.com/Lindelaine-maker/digital-store-final
