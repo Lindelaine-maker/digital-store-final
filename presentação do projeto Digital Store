@@ -1,0 +1,7 @@
+O projeto Digital Store foi desenvolvido como uma loja virtual moderna e responsiva, com foco em experiência de usuário, organização visual e funcionalidade de e-commerce. A aplicação foi construída com React, TypeScript e Tailwind CSS, e tem como objetivo simular uma loja digital completa, incluindo catálogo de produtos, busca, filtros, carrinho de compras, autenticação simulada e checkout.
+
+Durante o desenvolvimento, foram implementadas páginas essenciais para o fluxo da loja, como a home, listagem de produtos, página de detalhes, carrinho e finalização da compra. Também foi incluído um banner de destaque, seleção de tamanho e cor, além de uma navegação funcional para melhorar a experiência do usuário.
+
+A aplicação foi pensada para ser visualmente atrativa, responsiva e pronta para apresentação em portfólio ou entrega acadêmica. Além disso, o projeto foi estruturado de forma organizada, com componentes reutilizáveis, contexto para gerenciamento do estado do carrinho e persistência em localStorage, o que torna a aplicação mais robusta e próxima de um sistema real.
+
+O Digital Store representa uma solução prática de e-commerce front-end, com potencial para expansão futura com backend, autenticação real, integração com pagamentos e painel administrativo. A proposta principal foi criar um projeto funcional, moderno e profissional, que demonstra domínio de React, rotas, gerenciamento de estado e desenvolvimento de interfaces.
